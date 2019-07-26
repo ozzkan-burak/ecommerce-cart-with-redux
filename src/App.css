@@ -1,0 +1,40 @@
+.collection{
+  width: 49%;
+  float: left;
+}
+li{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+}
+li > span {
+  display: flex;
+  align-items: center;
+}
+.right-text{
+  float: right;
+}
+
+img{
+  width: 50px;
+}
+.cart-container{
+  display: inline-flex;
+  float:right;
+  width: 49%;
+  flex-wrap: wrap;
+}
+.cart-container > strong {
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+.cart-container > span {
+  display:block;
+  width: 100%;
+}
+.cart-container > ul{
+  display: block;
+  width: 100%;
+}
